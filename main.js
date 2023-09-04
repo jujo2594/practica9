@@ -1,3 +1,8 @@
 let a = 'learning';
+let b = 'GIT'
 
-console.log(`I'm ${a} GIT`);
+if(a !== 'learning'){
+    console.log("You're not learning");
+}else{
+    console.log(`You're ${a} ${b}`);
+}
